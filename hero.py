@@ -5,7 +5,7 @@ class SuperHero:
         self.nickname = nickname
         self.superpower = superpower
         self.health_points = health_points
-        self.catchphrase = catchphrase
+        self.catchphrase = catchphrase  
     def aji(self):
         return f"name: {self.name}"
     def heal(self):
